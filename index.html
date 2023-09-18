@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" class="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="icon" type="icon" href="favicon.png">
+   
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="left">Ishita's <span>Portfolio</span></div>
+                <div class="right">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">My Work</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </div>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>Ishita</span> <br>Bhowmick from India</h1>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="lan.png" width="100%" , height="500px">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>Thank You! for reading my portfolio.My name is Ishita Bhowmick and I belong to a nuclear family including my mom and dad.I am pursuing B-Tech in CSE.
+                            <br><br>Now I am finding opportunity to prove myself and my skills.Also want to gather more knowlegde and develope skills in more efficient way. My strength are I am self motivated, resourceful and hard working.
+                            I belive in self learning and I am also creative and versatile thinker.I am flexible with my friends and I am very much focused in my goals.
+                            <br><br>
+                            My short term goal is to get job in a reputed company and my long term goal is to achieve a good position where I can build my career and benifited the organization too.
+                            <br><br>I want to talk about my weakness too,I am a stright forward person what in my inside it strightly comes outside.I can't keep a fack face in my commetment. I  am also a multitasker some time it's creating mistakes in my job but it also made me a more creative and a innovative person as I am.
+                            <br><br>
+                            In my life I want to question explore, discover and create so I feel that engineering is good enough for me.I thought it would be a lot of fun.
+                            <br>As angineers, we are constantly changing the world with inventions and solutions that affect everyone's life, that's why i choose it as a wrap up sentance.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+
+                            <ul>
+                                <li><span>Web development</span><br>Frontend Developer using HTML,CSS,Java Script</li>
+                                <li><span>C and JAVA</span><br>Having knowlege in c and java</li>
+                                <li><span>C++</span><br>Programming Language with Oops concept</li>
+                                <li><span>React</span><br>Besic Knowledge in Web Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Hobbies">
+                            <ul>
+                                <li><span>Singing</span><br>I like to sing Rabindra sangeet</li>
+                                <li><span>Dancing</span><br>Kathak danceing learn for 3 years<br></li>
+                                <li><span>Drawing</span><br>Favourite is water color</li>
+                                <li><span>Watching Movies</span><br>Mostly watch Bollywood,Horror Movies and Korean Dramas</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Graduation in B.Tech in CSE</span><br> Narula Institute of Technology, Kolkata  | 9.22(YGPA)</li>
+                                <li><span>Higher Secondary</span><br>Dumdum Ananda Ashram Sarada Vidyapeeth    | 85.4% (Best of 5)</li>
+                                <li><span>Madhyamik</span><br>Sinthi Ramakrishna Sangha Sarada Vidya Mandir (For Girls)   | 87.6%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="services-list">
+                    <div>
+                        <a href="#"><i class="fa-solid fa-code"></i></i></a>
+                        <h2>Web Development</h2>
+                        <p>Having knowledge in HTML,CSS and Java Script. Currently working on the React based works.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <a href="#"><i class="fa-solid fa-code"></i></i></a>
+                        <h2>Programming</h2>
+                        <p>Having Knowledge of C, Java, and C++.Also know Computer Networking and Operating Systems.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <a href="#"><i class="fa-solid fa-code"></i></i></a>
+                        <h2>project</h2>
+                        <p>Develop 2 projects on Html,css and javascript</p>
+                        <a href="#">Learn more</a>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-lists">
+                    <div class="work">
+                        <img src="pro.jpeg">
+                        <div class="layer">
+                            <h3>Project on API</h3>
+                            <p>Build a project on Weather forecasting using APPLICATION PROGRAMMING INTERFACE</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="web.webp">
+                        <div class="layer">
+                            <h3>Project on Web development</h3>
+                            <p>Building two projects based on HTML,CSS and JAVASECIPT and ANIMATION</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#" class="btn">See more</a>
+
+            </div>    
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                         <h1 class="sub-title">Contact Me</h1>
+                         <p><i class="fa-solid fa-envelope"></i>ishitabhowmick485@gmail.com</p>
+                         <p><i class="fa-solid fa-phone"></i>7980012281</p>
+                         <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                         </div>  
+                         <a href="" class="btn btn2">Downlode CV</a> 
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2 btn3">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright &#169; ishitabhowmick485@gmail.com | All rights reserved</p>
+                <p>Made with <i class="fa-solid fa-heart"></i> by easy portfolio</p>
+            </div>
+        </div>
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyuld7K65VBvznVqWAf2DbxMIeJ0m5bLpUtfXEsi__u-XObiBzEkbfDf8nz9im8vhs/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
